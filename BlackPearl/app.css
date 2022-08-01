@@ -1,0 +1,180 @@
+@keyframes rotating{ 0%{transform: rotate(360deg);} 50%{transform: rotate(-360deg);} 100%{transform: rotate(360deg);}}
+@font-face {
+    font-family: Wood;
+    src: url("./Шрифты/beer\ money.ttf");
+}
+
+body {
+    margin: 0;  
+    margin: auto; 
+    
+}
+
+
+.background{
+    margin: 0;
+   position: relative;
+   z-index: -2 ;
+    width: 100%;
+    height: 55em; 
+}
+
+
+nav{
+    position: fixed !important;
+    width: 100%;
+    height: 3.7em;
+    background: rgba(26, 26, 26, 0.8);
+    z-index:2;
+  }
+  .img-nav{
+      width: 180px;
+  }
+
+.d-flex{
+    margin-left: 60%;
+}
+.Shturval{
+    position: absolute;
+    
+    top: 59%;
+    z-index: -1;
+    left: 48.5%;
+    margin-left: -325px
+}
+.shturval{
+    animation: rotating 40s infinite ease-in-out;
+    width: 43em;
+    height: 43em;
+
+   
+}
+.dg-dark{
+    background: black 0.5!important; 
+}
+
+#demo{
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    margin: 0;
+    block-size: border-box;
+   
+    
+}
+#demo2{
+    
+    position: absolute;
+    top: 105%;
+    right:  50%;
+    margin: 0;
+    block-size: border-box;
+
+}
+
+.background img{
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+}
+
+.BlackBackground{
+  background: black;
+  height: 19em;}
+
+  .BackgroundFlot{
+background-image: url("https://kartinkin.net/uploads/posts/2021-07/thumbs/1626808915_15-kartinkin-com-p-teksturi-dlya-krita-krasivo-17.jpg");
+box-sizing: border-box;
+    
+border-radius: 7px;
+float: left;
+margin-bottom: 0%;
+}
+
+.OurFlot{
+    padding-right: 4%;
+    margin: 0 auto;
+    margin-left: 30%;
+    width: 31em;
+    height: 11em;
+    font-family: Wood;
+
+}
+.Tablet{
+    width: 139%;
+    height: 194%;
+}
+.NameFlot{
+    position: absolute;
+    top: 180%;
+    left: 38%;
+    z-index: 1;
+}
+
+.Flot{
+    box-sizing: border-box;
+    
+    border-radius: 7px;
+    float: left;
+    padding: 70px 70px 70px;
+    background: #fff;
+    margin: 12% 10% 0% 10%;
+    
+    width: 80%;
+    padding-left: 116px;
+    background-image:url("./Фоточечечки/деффки.jpg")
+}
+
+.card-body{
+    background: rgb(250, 229, 201);
+    height: 0em;
+}
+.card{
+   
+    float: left;
+    height: 415px;
+    width: 32%;
+}
+.servise{
+    box-sizing: border-box;
+    float: left;
+    display: block;
+    width: 100%;
+    height: 48em;
+  
+    
+
+}
+
+
+.servise img{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 100%;
+}
+
+.card-img-top{
+ height: 135px
+}
+.footer{
+       width: 100%;
+        background: rgba(26, 26, 26, 0.311); 
+       background: transparent;
+       text-align: center;
+  
+     
+
+}
+.Footerr{ 
+    display: block;
+    background: rgba(26, 26, 26, 0.8);
+    color: aliceblue;
+    height: 383px;
+    margin-top: -27%;
+    
+}
+
